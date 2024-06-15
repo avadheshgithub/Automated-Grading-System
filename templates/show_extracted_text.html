@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracted Text</title>
+    <style>
+        .text-box {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            white-space: pre-wrap; /* This preserves line breaks in the text */
+        }
+        .submit-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Extracted Text</h1>
+    <div class="text-box">
+        {{ text }}
+    </div>
+    <p>Number of words: {{ num_words }}</p>
+    <form method="get" action="{% url 'keyword_form' pdf_id=pdf_id %}">
+        <button type="submit" class="submit-btn">Analyze the Text</button>
+    </form>
+</body>
+</html>
