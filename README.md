@@ -1,18 +1,18 @@
 # Automated-Grading-System
 
-## Student Text Analysis and Feedback System
+## 📚 Student Text Analysis and Feedback System 📝
 
 This project implements a machine learning model for text analysis and feedback, focusing on student assignments. The system reads PDF files, processes the text, matches keywords against a given solution, provides grading, and generates constructive feedback. Additionally, it includes a dashboard for visualizing student performance and analysis results.
 
-## Features
+## ✨ Features
 
-- **Text Extraction**: Reads and extracts text from PDF files.
-- **Text Processing**: Tokenizes, lemmatizes, and removes stopwords from the text.
-- **Keyword Matching**: Compares student text with solution keywords and calculates match scores.
-- **Grading and Feedback**: Assigns grades based on keyword usage and text coherence, providing specific feedback for improvement.
-- **Dashboard**: Visualizes performance metrics and feedback using interactive graphs.
+- **Text Extraction** 📄: Reads and extracts text from PDF files.
+- **Text Processing** 🛠️: Tokenizes, lemmatizes, and removes stopwords from the text.
+- **Keyword Matching** 🔍: Compares student text with solution keywords and calculates match scores.
+- **Grading and Feedback** 🎓: Assigns grades based on keyword usage and text coherence, providing specific feedback for improvement.
+- **Dashboard** 📊: Visualizes performance metrics and feedback using interactive graphs.
 
-## Installation
+## 🛠️ Installation
 
 1. **Clone the Repository**
     ```sh
