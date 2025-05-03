@@ -2,7 +2,7 @@
 
 ## 📚 Student Text Analysis and Feedback System 📝
 
-This project implements a machine learning model for text analysis and feedback, focusing on student assignments. The system reads PDF files, processes the text, matches keywords against a given solution, provides grading, and generates constructive feedback. Additionally, it includes a dashboard for visualizing student performance and analysis results.
+This project implements a machine learning model for text analysis and feedback, focusing on student assignments. The system reads PDF files, processes the text, matches keywords against a given solution, provides grading, and generates constructive feedback. Additionally, it includes a dashboard for visualizing student performance and analysis results with dashboard.
 
 ## ✨ Features
 
