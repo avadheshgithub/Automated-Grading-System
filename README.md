@@ -57,13 +57,7 @@ This project implements a machine learning model for text analysis and feedback,
     ```python
    
     ```
-
-## Contributors
-
-- **Name** - [Abhiyank51](https://github.com/Abhiyank51/SCORING_GRADING_MODEL)
-- **Name** - [kunal]
-- **Name** - [Tejas]
-
+    
 Feel free to fork this project and contribute by creating pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
 
